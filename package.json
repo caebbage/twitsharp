@@ -1,0 +1,7 @@
+{
+  "name": "twitsharp",
+  "version": "1.0.0",
+  "description": "This inserts a semi-transparent picture in the corner of your picture so that Twitter won't turn it into a jpeg.",
+  "author": "cae",
+  "license": "MIT"
+}

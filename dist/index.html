@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>twitsharp</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <meta name="description" content="This inserts a semi-transparent picture in the corner of your picture so that Twitter won't turn it into a jpeg." />
+    <meta property="og:title" content="twitsharp" />
+    <meta property="og:description" content="This inserts a semi-transparent picture in the corner of your picture so that Twitter won't turn it into a jpeg." />
+    <meta property="og:image" content="./fuck.png" />
+  </head>
+  <body>
+    <div id="credits">
+      Made by <a href="https://twitter.com/mmt_n_">cae</a>. Do whatever you want with it but credit is nice.
+      <br>
+      This inserts a semi-transparent picture in the corner of your picture so that Twitter won't turn it into a jpeg.
+    </div>
+    <div id="drop-area">
+      <div class="desc">
+        Multiple files supported, files automatically downloaded.<br>
+        This doesn't use any servers so nobody will ever know what pictures you were using.
+        This also means if you save the webpage it should work without internet.
+      </div>
+      <div class="label">
+        Drag file(s) into the box
+          <br>
+        or
+          <br>
+        click the area to select file(s)
+      </div>
+      <canvas id="canvas" />
+    </div>
+    <input type="file" id="upload" multiple></input>
+    <script src="./saving.js"></script>
+    <script src="./jquery.min.js"></script>
+    <script src="./twitsharp.js"></script>
+  </body>
+</html>

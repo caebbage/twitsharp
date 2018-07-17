@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: regular;
+  src: url('./Ubuntu-R.ttf');
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  src: url('./Ubuntu-B.ttf');
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  margin: 0;
+  background: #ddd;
+  color: #333;
+}
+
+#credits {
+  position: fixed;
+  z-index: 2;
+  top: calc(2vh + 2vw);
+  left: calc(2vh + 2vw);
+  right: calc(2vh + 2vw);
+  background: #eee;
+  padding: calc(1vh + 1vw);
+}
+
+#drop-area {
+  border: 2px solid;
+  position: absolute;
+  top: calc((1vh + 1vw));
+  right: calc((1vh + 1vw));
+  left: calc((1vh + 1vw));
+  bottom: calc((1vh + 1vw));
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: calc(5vw + 5vh);
+  text-align: center;
+}
+.desc {
+  margin-bottom: 5vh;
+}
+.label {
+  font-size: calc(1.5vh + 1.5vw);
+  text-align: center;
+  font-weight: bold;
+}
+
+#upload, #canvas {
+  display: none;
+}
